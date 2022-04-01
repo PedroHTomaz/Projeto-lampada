@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acende Lampada</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script>
+        function acendeLampada () {
+            document.getElementById ('Luz').src = "imagens/lampada-acesa.jpg"
+        }
+        function apagaLampada () {
+            document.getElementById ('Luz').src = "imagens/lampada-apagada.jpg"
+        }
+        function quebraLampada () {
+            document.getElementById ('Luz').src = "imagens/lampada-quebrada.jpg"
+        }
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Interaja com a lâmpada!</h1>
+            <img src="imagens/lampada-apagada.jpg" id="Luz">
+            <div class="botao">
+            <input type="button" value="Acender" onclick="acendeLampada ()">
+            <div class="botao">
+            <input type="button" value="Apagar" onclick="apagaLampada ()">
+            <div class="botao">
+            <input type="button" value="Quebrar" onclick="quebraLampada ()">
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

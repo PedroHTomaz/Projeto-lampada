@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+position: absolute;
+left: 50%;
+transform: translateX(-175px) translateY(-200px); /*poderíamos colocar também os valores em %*/
+top: 50%;
+width: 350px;
+height: 400px;
+border: 1px solid black;
+text-align: center;
+border-radius: 6%;
+box-shadow: 2px 2px 2px 1px black;
+background-color: white;
+opacity: 0.9;
+}
+
+.botao {
+    display: inline-block;
+}
